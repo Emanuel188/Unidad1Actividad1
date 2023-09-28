@@ -1,0 +1,24 @@
+﻿@model Unidad1Actividad1.Models.MiPerfilViewModel
+<head>
+    <title>Perfil Del Alumno</title>
+    <style>
+        html {
+            background-color: silver;
+            font-family: 'Arial Rounded MT';
+        }
+    </style>
+</head>
+<body>
+    <h1>Perfil De Alumno</h1>
+</body>
+<img width="200" height="200" class="logo" src="/Imagen/gato.jpg" />
+<dl>
+    <dt>Nombre:</dt>
+    <dd>@Model.Nombre</dd>
+    <dt>Materia:</dt>
+    <dd>@Model.Materia</dd>
+    <dt>Semestre:</dt>
+    <dd>@Model.Semestres</dd>
+    <dt>Periodo:</dt>
+    <dd>@Model.Periodo</dd>
+</dl>
